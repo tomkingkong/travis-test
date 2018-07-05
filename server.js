@@ -5,6 +5,8 @@ const environment = process.env.NODE_ENV || 'development';
 const configuration = require('./knexfile')[environment];
 const database = require('knex')(configuration);
 
+// Mike Dao is creepin
+
 app.set('port', process.env.PORT || 3000);
 
 app.get('/', (request, response) => {
