@@ -1,4 +1,7 @@
 language: node_js
 node_js:
-  - "iojs"
-  - "7"
+  - "10"
+"scripts": {
+  "test": "NODE_ENV=test mocha --exit"
+}
+npm test
